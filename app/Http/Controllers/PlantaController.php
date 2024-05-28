@@ -7,6 +7,11 @@ use App\Models\Planta;
 
 class PlantaController extends Controller
 {
+    public function index()
+    {
+        $planta = Planta::all();
+        return view('$planta', compact('$planta'));
+    }
     public function store(Request $request)
     {
         $planta = new Planta();

@@ -149,8 +149,8 @@
       'file' => 
       array (
         'driver' => 'file',
-        'path' => 'C:\\Floricultura_Jardim\\storage\\framework/cache/data',
-        'lock_path' => 'C:\\Floricultura_Jardim\\storage\\framework/cache/data',
+        'path' => 'C:\\Users\\198848\\Desktop\\Floricultura_Jardim\\storage\\framework/cache/data',
+        'lock_path' => 'C:\\Users\\198848\\Desktop\\Floricultura_Jardim\\storage\\framework/cache/data',
       ),
       'memcached' => 
       array (
@@ -319,13 +319,13 @@
       'local' => 
       array (
         'driver' => 'local',
-        'root' => 'C:\\Floricultura_Jardim\\storage\\app',
+        'root' => 'C:\\Users\\198848\\Desktop\\Floricultura_Jardim\\storage\\app',
         'throw' => false,
       ),
       'public' => 
       array (
         'driver' => 'local',
-        'root' => 'C:\\Floricultura_Jardim\\storage\\app/public',
+        'root' => 'C:\\Users\\198848\\Desktop\\Floricultura_Jardim\\storage\\app/public',
         'url' => 'http://localhost/storage',
         'visibility' => 'public',
         'throw' => false,
@@ -345,7 +345,7 @@
     ),
     'links' => 
     array (
-      'C:\\Floricultura_Jardim\\public\\storage' => 'C:\\Floricultura_Jardim\\storage\\app/public',
+      'C:\\Users\\198848\\Desktop\\Floricultura_Jardim\\public\\storage' => 'C:\\Users\\198848\\Desktop\\Floricultura_Jardim\\storage\\app/public',
     ),
   ),
   'logging' => 
@@ -370,14 +370,14 @@
       'single' => 
       array (
         'driver' => 'single',
-        'path' => 'C:\\Floricultura_Jardim\\storage\\logs/laravel.log',
+        'path' => 'C:\\Users\\198848\\Desktop\\Floricultura_Jardim\\storage\\logs/laravel.log',
         'level' => 'debug',
         'replace_placeholders' => true,
       ),
       'daily' => 
       array (
         'driver' => 'daily',
-        'path' => 'C:\\Floricultura_Jardim\\storage\\logs/laravel.log',
+        'path' => 'C:\\Users\\198848\\Desktop\\Floricultura_Jardim\\storage\\logs/laravel.log',
         'level' => 'debug',
         'days' => 14,
         'replace_placeholders' => true,
@@ -442,7 +442,7 @@
       ),
       'emergency' => 
       array (
-        'path' => 'C:\\Floricultura_Jardim\\storage\\logs/laravel.log',
+        'path' => 'C:\\Users\\198848\\Desktop\\Floricultura_Jardim\\storage\\logs/laravel.log',
       ),
     ),
   ),
@@ -518,7 +518,7 @@
       'theme' => 'default',
       'paths' => 
       array (
-        0 => 'C:\\Floricultura_Jardim\\resources\\views/vendor/mail',
+        0 => 'C:\\Users\\198848\\Desktop\\Floricultura_Jardim\\resources\\views/vendor/mail',
       ),
     ),
   ),
@@ -613,7 +613,7 @@
     'lifetime' => '120',
     'expire_on_close' => false,
     'encrypt' => false,
-    'files' => 'C:\\Floricultura_Jardim\\storage\\framework/sessions',
+    'files' => 'C:\\Users\\198848\\Desktop\\Floricultura_Jardim\\storage\\framework/sessions',
     'connection' => NULL,
     'table' => 'sessions',
     'store' => NULL,
@@ -634,9 +634,9 @@
   array (
     'paths' => 
     array (
-      0 => 'C:\\Floricultura_Jardim\\resources\\views',
+      0 => 'C:\\Users\\198848\\Desktop\\Floricultura_Jardim\\resources\\views',
     ),
-    'compiled' => 'C:\\Floricultura_Jardim\\storage\\framework\\views',
+    'compiled' => 'C:\\Users\\198848\\Desktop\\Floricultura_Jardim\\storage\\framework\\views',
   ),
   'broadcasting' => 
   array (
@@ -823,7 +823,7 @@
     array (
     ),
     'enable_runnable_solutions' => NULL,
-    'remote_sites_path' => 'C:\\Floricultura_Jardim',
+    'remote_sites_path' => 'C:\\Users\\198848\\Desktop\\Floricultura_Jardim',
     'local_sites_path' => '',
     'housekeeping_endpoint_prefix' => '_ignition',
     'settings_file_path' => '',

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Plantas - Floricultura Jardim</title>
+    <title>$planta - Floricultura Jardim</title>
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 </head>
 <body>
@@ -11,7 +11,7 @@
         <h1>Floricultura Jardim</h1>
         <nav>
             <a href="/">Home</a>
-            <a href="/plantas">Plantas</a>
+            <a href="/$planta">$planta</a>
             <a href="/funcionarios">Funcionários</a>
             <a href="/clientes">Clientes</a>
             <a href="/pedidos">Pedidos</a>
@@ -19,7 +19,7 @@
         </nav>
     </header>
     <div class="container">
-        <h2>Plantas</h2>
+        <h2>$planta</h2>
         <form action="{{ route('inserirPlanta') }}" method="POST">
             @csrf
             <div class="form-grupo">
@@ -47,7 +47,7 @@
                 <button type="reset">Limpar</button>
             </div>
         </form>
-        <table class="plantas-table">
+        <table class="$planta-table">
             <thead>
                 <tr>
                     <th>ID</th>
@@ -61,14 +61,14 @@
                 </tr>
             </thead>
             <tbody>
-                @foreach($plantas as $planta)
+                @foreach($planta as $plant)
                 <tr>
-                    <td>{{ $planta->id_planta }}</td>
-                    <td>{{ $planta->nome }}</td>
-                    <td>{{ $planta->especie }}</td>
-                    <td>{{ $planta->preco }}</td>
-                    <td>{{ $planta->qtd_estoque }}</td>
-                    <td>{{ $planta->tamanho }}</td>
+                    <td>{{ $plant->id_planta }}</td>
+                    <td>{{ $plant->nome }}</td>
+                    <td>{{ $plant->especie }}</td>
+                    <td>{{ $plant->preco }}</td>
+                    <td>{{ $plant->qtd_estoque }}</td>
+                    <td>{{ $plant->tamanho }}</td>
                     <td>
                         <button onclick="abrirModalEditar({{ $planta->id_planta }})">
                             <img src="../public/ferramenta-lapis.png" alt="Editar">

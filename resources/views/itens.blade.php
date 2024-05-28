@@ -11,7 +11,7 @@
         <h1>Floricultura Jardim</h1>
         <nav>
             <a href="/">Home</a>
-            <a href="/plantas">Plantas</a>
+            <a href="/$planta">$planta</a>
             <a href="/funcionarios">Funcionários</a>
             <a href="/clientes">Clientes</a>
             <a href="/pedidos">Pedidos</a>
@@ -27,7 +27,7 @@
                 <input type="text" id="qtd_itens" name="qtd_itens" required>
             </div>
             <div class="form-grupo">
-                <label for="fk_planta">Plantas:</label>
+                <label for="fk_planta">$planta:</label>
                 <input type="text" id="fk_planta" name="fk_planta" required>
             </div>
             <div class="form-grupo">
@@ -35,12 +35,12 @@
                 <button type="reset">Limpar</button>
             </div>
         </form>
-        <table class="plantas-table">
+        <table class="$planta-table">
             <thead>
                 <tr>
                     <th>ID</th>
                     <th>Qtd. Itens</th>
-                    <th>Plantas</th>
+                    <th>$planta</th>
                     <th>Editar</th>
                     <th>Excluir</th>
                 </tr>

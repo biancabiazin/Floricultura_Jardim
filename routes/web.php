@@ -9,8 +9,8 @@ Route::get('/', function () {
 
 Route::get('/', [HomeController::class, 'index']);
 
-Route::get('/plantas', function () {
-    return view('plantas');
+Route::get('/$planta', function () {
+    return view('$planta');
 });
 
 Route::post('/inserirPlanta', 'PlantaController@inserir')->name('inserirPlanta');

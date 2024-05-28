@@ -11,7 +11,7 @@
         <h1>Floricultura Jardim</h1>
         <nav>
             <a href="/">Home</a>
-            <a href="/plantas">Plantas</a>
+            <a href="/$planta">$planta</a>
             <a href="/funcionarios">Funcionários</a>
             <a href="/clientes">Clientes</a>
             <a href="/pedidos">Pedidos</a>
@@ -47,7 +47,7 @@
                 <button type="reset">Limpar</button>
             </div>
         </form>
-        <table class="plantas-table">
+        <table class="$planta-table">
             <thead>
                 <tr>
                     <th>ID</th>
