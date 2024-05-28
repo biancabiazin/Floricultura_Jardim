@@ -12,3 +12,5 @@ Route::get('/', [HomeController::class, 'index']);
 Route::get('/plantas', function () {
     return view('plantas');
 });
+
+Route::post('/inserirPlanta', 'PlantaController@inserir')->name('inserirPlanta');
